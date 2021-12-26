@@ -143,16 +143,16 @@ const starts = async (dogexeon = new WAConnection()) => {
 	}), 'cyan'))
 	console.log(color('\n> YT CHANNEL: Xeon ','silver'))
 console.log(color('> GITHUB: DGXeon ','silver'))
-console.log(color('> WA NUMBER: +916909137213 ','silver'))
+console.log(color('> WA NUMBER: +917249832405','silver'))
 console.log(color('  Xeon Bot Inc. 2021','mediumseagreen'))
-	dogexeon.browserDescription = [ 'Subscribe Xeon', 'ubuntu', '3.0' ]
+	dogexeon.browserDescription = [ 'BY MAYUR', 'ubuntu', '3.0' ]
 
 	dogexeon.on('qr', () => {
 	console.log(color('[','white'), color('!','red'), color(']','white'), color('SCAN THE QR'))
 })
 	dogexeon.on('credentials-updated', () => {
 		fs.writeFileSync('./session.json', JSON.stringify(dogexeon.base64EncodedAuthInfo(), null, '\t'))
-		info('2', 'Doge Bot Loading...')
+		info('2', 'Rino Bot Loading...')
 	})
 	fs.existsSync('./session.json') && dogexeon.loadAuthInfo('./session.json')
 	dogexeon.on('connecting', () => {
@@ -213,7 +213,7 @@ dogexeon.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
    // owner
 
 
-    const htod = "916909137213@s.whatsapp.net"
+    const htod = "917249832405@s.whatsapp.net"
 
     
 
@@ -303,7 +303,7 @@ dogexeon.on('group-participants-update', async (anu) => {
 
 				img = await getBuffer(ppUrl)
 
-				teks = `🐶 *Hɪ* @${num.split('@')[0]}\n🐶 *Bɪᴏ* : *${thu.status}*\n🐶 *Mᴇᴍʙᴇʀs : ${memeg}*\n🐶 *Wᴇʟᴄᴏᴍᴇ Tᴏ ${mdata.subject}*\n🐶 *ᴅᴏɴᴛ ꜰᴏʀɢᴇᴛ ᴛᴏ ʀᴇᴀᴅ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ*`
+				teks = ` *Hɪ* @${num.split('@')[0]}\n *Bɪᴏ* : *${thu.status}*\n *Mᴇᴍʙᴇʀs : ${memeg}*\n *Wᴇʟᴄᴏᴍᴇ Tᴏ ${mdata.subject}*\n *ᴅᴏɴᴛ ꜰᴏʀɢᴇᴛ ᴛᴏ ʀᴇᴀᴅ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ*`
 
 				sendButImage(anu.jid, teks, `𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, img,but = [{buttonId:`getdescgc`, 
 
@@ -325,7 +325,7 @@ dogexeon.on('group-participants-update', async (anu) => {
 
 				img = await getBuffer(ppUrl)
 
-				teks = `*Gᴏᴏᴅ Bʏᴇ* 👋\n@${num.split('@')[0]}\n*𝙷𝚘𝚙𝚎𝚏𝚞𝚕𝚕𝚢 𝚃𝚑𝚎𝚛𝚎 𝚆𝚘𝚗𝚝 𝙱𝚎 𝙱𝚞𝚛𝚍𝚎𝚗 𝙷𝚎𝚛𝚎 𝙰𝚗𝚢𝚖𝚘𝚛𝚎* 🐶`
+				teks = `*Gᴏᴏᴅ Bʏᴇ* 👋\n@${num.split('@')[0]}\n*𝙷𝚘𝚙𝚎𝚏𝚞𝚕𝚕𝚢 𝚃𝚑𝚎𝚛𝚎 𝚆𝚘𝚗𝚝 𝙱𝚎 𝙱𝚞𝚛𝚍𝚎𝚗 𝙷𝚎𝚛𝚎 𝙰𝚗𝚢𝚖𝚘𝚛𝚎* `
 
 				sendButImage(anu.jid, teks, `𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `GOODBYE !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 

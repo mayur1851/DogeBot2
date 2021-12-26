@@ -1,6 +1,6 @@
-//-----(Doge Bot by Xeon Bot Inc.)-----\\
+//-----(Rino bot by Mayur bot inc.)-----\\
 //-----(Youtube Channel: Xeon)-----\\
-//-----(Whatsapp number: +916909137213)-----\\
+//-----(Whatsapp number: +917249832405)-----\\
 //-----(Wanna reupload??? Can, but give proper credit)----\\
 
 const
@@ -107,7 +107,7 @@ const dare = JSON.parse(fs.readFileSync('./database/dare.json'))
 ky_ttt = []
 tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣"]
 cmhit = []
-fake = "Doge Bot";
+fake = "Rino bot";
 autorespon = settings.AutoRespon
 playmusic = settings.AutoMusic
 antidelete = settings.AntiDelete
@@ -337,11 +337,11 @@ return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a
 }
 		if (antibot === true) return
 		const katalog = (teks) => {
-             res = alpha.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*Doge Bot*", "thumbnail": ftex, "surface": 'CATALOG' }}, {quoted:ftex})
+             res = alpha.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*Rino bot*", "thumbnail": ftex, "surface": 'CATALOG' }}, {quoted:ftex})
              alpha.relayWAMessage(res)
         }
         const grupinv = (teks) => {
-        	grup = alpha.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/G3a3AQndqS5J45eD7zznXF', "groupName": `Xeon Bot Inc.`, "footerText": "*Doge Bot*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
+        	grup = alpha.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/G3a3AQndqS5J45eD7zznXF', "groupName": `Mayur bot inc.`, "footerText": "*Rino bot*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
             alpha.relayWAMessage(grup)
         }
 		idttt = []
@@ -370,30 +370,30 @@ return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a
 			var ase = new Date();
                         var jamss = ase.getHours();
                          switch(jamss){
-                case 0: jamss = "Doge Bot"; break;
-                case 1: jamss = "Doge Bot"; break;
-                case 2: jamss = "Doge Bot"; break;
-                case 3: jamss = "Doge Bot"; break;
-                case 4: jamss = "Doge Bot"; break;
-                case 5: jamss = "Doge Bot"; break;
-                case 6: jamss = "Doge Bot"; break;
-                case 7: jamss = "Doge Bot"; break;
-                case 8: jamss = "Doge Bot"; break;
-                case 9: jamss = "Doge Bot"; break;
-                case 10: jamss = "Doge Bot"; break;
-                case 11: jamss = "Doge Bot"; break;
-                case 12: jamss = "Doge Bot"; break;
-                case 13: jamss = "Doge Bot"; break;
-                case 14: jamss = "Doge Bot"; break;
-                case 15: jamss = "Doge Bot"; break;
-                case 16: jamss = "Doge Bot"; break;
-                case 17: jamss = "Doge Bot"; break;
-                case 18: jamss = "Doge Bot"; break;
-                case 19: jamss = "Doge Bot"; break;
-                case 20: jamss = "Doge Bot"; break;
-                case 21: jamss = "Doge Bot"; break;
-                case 22: jamss = "Doge Bot"; break;
-                case 23: jamss = "Doge Bot"; break;
+                case 0: jamss = "Rino bot"; break;
+                case 1: jamss = "Rino bot"; break;
+                case 2: jamss = "Rino bot"; break;
+                case 3: jamss = "Rino bot"; break;
+                case 4: jamss = "Rino bot"; break;
+                case 5: jamss = "Rino bot"; break;
+                case 6: jamss = "Rino bot"; break;
+                case 7: jamss = "Rino bot"; break;
+                case 8: jamss = "Rino bot"; break;
+                case 9: jamss = "Rino bot"; break;
+                case 10: jamss = "Rino bot"; break;
+                case 11: jamss = "Rino bot"; break;
+                case 12: jamss = "Rino bot"; break;
+                case 13: jamss = "Rino bot"; break;
+                case 14: jamss = "Rino bot"; break;
+                case 15: jamss = "Rino bot"; break;
+                case 16: jamss = "Rino bot"; break;
+                case 17: jamss = "Rino bot"; break;
+                case 18: jamss = "Rino bot"; break;
+                case 19: jamss = "Rino bot"; break;
+                case 20: jamss = "Rino bot"; break;
+                case 21: jamss = "Rino bot"; break;
+                case 22: jamss = "Rino bot"; break;
+                case 23: jamss = "Rino bot"; break;
             }
             var tampilUcapan = "" + jamss;
             const jmn = moment.tz('Asia/Jakarta').format('HH.mm')
@@ -575,7 +575,7 @@ const ftex = {
                 },
 	 message: { 
 		"extendedTextMessage": {
-                 "text": `*${botName} by Xeon Bot Inc.*`,
+                 "text": `*${botName} by Mayur bot inc.*`,
                  "title": `_${botName}_`,
                  'jpegThumbnail': gambarrr
                         }
@@ -642,7 +642,7 @@ options
 
 const daftar1 = `*Hi ${pushname}* 👋\n*Please Verify First*`
 const daftar2 = '_Click the button below to verify_'
-const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `🐶VERIFY🐶`,},type: 1,},]
+const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `VERIFY`,},type: 1,},]
 
 const createSerial = (size) => {
 return crypto.randomBytes(size).toString('hex').slice(0, size)
@@ -716,7 +716,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
             if (isAfk(mek.key.remoteJid)) return
             addafk(mek.key.remoteJid)
 			heheh = ms(Date.now() - waktuafk)
-		  sendButMessage(from, `Hi ${pushname}, Sorry it seems at this time ${NamaOwner} is offline\n\n*Reason :* ${alasanafk}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minute, ${heheh.seconds} Second\n\nPlease contact again after Online`, "*Doge Bot*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftex, contextInfo: { forwardingScore: 508, isForwarded: true}})
+		  sendButMessage(from, `Hi ${pushname}, Sorry it seems at this time ${NamaOwner} is offline\n\n*Reason :* ${alasanafk}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minute, ${heheh.seconds} Second\n\nPlease contact again after Online`, "*Rino bot*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftex, contextInfo: { forwardingScore: 508, isForwarded: true}})
 			}
 		}
 		if (mek.key.remoteJid.endsWith('@g.us') && offline) {
@@ -729,7 +729,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
                         if (isAfk(mek.key.remoteJid)) return
                         addafk(mek.key.remoteJid)
 						heheh = ms(Date.now() - waktuafk)
-			       sendButMessage(from, `Hi ${pushname}, Sorry it seems at this time ${NamaOwner} is offline\n\n*Reason :* ${alasanafk}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minute, ${heheh.seconds} Second\n\nPlease contact again after Online`, "*Doge Bot*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftex, contextInfo: { forwardingScore: 508, isForwarded: true}})
+			       sendButMessage(from, `Hi ${pushname}, Sorry it seems at this time ${NamaOwner} is offline\n\n*Reason :* ${alasanafk}\n*Since :* ${heheh.hours} Hour, ${heheh.minutes} Minute, ${heheh.seconds} Second\n\nPlease contact again after Online`, "*Rino bot*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftex, contextInfo: { forwardingScore: 508, isForwarded: true}})
 					}
 				}
 						}
@@ -779,7 +779,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
                 });
             }
             const sendKontak = (from, nomor, nama) => {
-	        const vcard = 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'FN:' + nama + '\n' + `ORG:Doge Bot Owner\n` + 'TEL;type=CELL;type=VOICE;waid=' + nomor + ':+' + nomor + '\n' + 'END:VCARD'
+	        const vcard = 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'FN:' + nama + '\n' + `ORG:Rino bot Owner\n` + 'TEL;type=CELL;type=VOICE;waid=' + nomor + ':+' + nomor + '\n' + 'END:VCARD'
 	        alpha.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {quoted:mek, contextInfo: { forwardingScore: 508, isForwarded: true }})
             }
             const hideTagKontak = async function(from, nomor, nama){
@@ -793,7 +793,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
 	        alpha.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {contextInfo: {"mentionedJid": ane}})
             }
 		const reply = (teks) => {
-			alpha.sendMessage(from, teks, text, { thumbnail: ofrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Doge Bot`,body:"HORNY = BONK",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/p/6349482305092740/916909137213`}}})
+			alpha.sendMessage(from, teks, text, { thumbnail: ofrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Rino bot`,body:"bonk",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/p/6349482305092740/917249832405`}}})
 		}
 		const simir = (teks) => {
 			alpha.sendMessage(from, teks, text, { quoted:ftex })
@@ -1116,7 +1116,7 @@ if (!settings.autoread) {
 alpha.chatRead(from)
 }
 if (budy.startsWith('bot')){
-sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*Doge Bot*", [{buttonId: 'igm', buttonText: {displayText: 'Github'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftex, contextInfo: { forwardingScore: 508, isForwarded: true}})
+sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*Rino bot*", [{buttonId: 'igm', buttonText: {displayText: 'Github'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftex, contextInfo: { forwardingScore: 508, isForwarded: true}})
 }
 if(isButton == 'igm'){
 reply('https://github.com/DGXeon')
@@ -1217,19 +1217,19 @@ tod = `┏━━━━━━━━━━━━━━━━━━━━
 ⬡ ${z}Owner Number : ${NomorOwner}${z}
 ┗━━━━━━━━━━━━━━━━━━`
 tod2 =`┏━━━❒ *MENU LIST*
-${z}🐶 ${prefix}soundmenu${z}
-${z}🐶 ${prefix}rentbot${z}
-${z}🐶 ${prefix}status${z}
-${z}🐶 ${prefix}intakemenu${z}
-${z}🐶 ${prefix}runtime${z}
-${z}🐶 ${prefix}makermenu${z}
-${z}🐶 ${prefix}ownermenu${z}
-${z}🐶 ${prefix}groupmenu${z}
-${z}🐶 ${prefix}othermenu${z}
-${z}🐶 ${prefix}downloadmenu${z}
-${z}🐶 ${prefix}funmenu${z}
-${z}🐶 ${prefix}nsfwmenu${z}
-${z}🐶 ${prefix}animemenu${z}
+${z} ${prefix}soundmenu${z}
+${z} ${prefix}rentbot${z}
+${z} ${prefix}status${z}
+${z} ${prefix}intakemenu${z}
+${z} ${prefix}runtime${z}
+${z} ${prefix}makermenu${z}
+${z} ${prefix}ownermenu${z}
+${z} ${prefix}groupmenu${z}
+${z} ${prefix}othermenu${z}
+${z} ${prefix}downloadmenu${z}
+${z} ${prefix}funmenu${z}
+${z} ${prefix}nsfwmenu${z}
+${z} ${prefix}animemenu${z}
     watch how you can install this bot in your whatsapp: https://youtu.be/zXvwqA8LvTw
 ┗━━━━━━━━━━━━━━━━━`
 buttons = [
@@ -1482,39 +1482,39 @@ case 'funmenu':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
 stamtus = `❏ 「 \`\`\`FUN MENU\`\`\` 」
 ────────────────────
-🐶 ${prefix}stupid
-🐶 ${prefix}foolish
-🐶 ${prefix}smart
-🐶 ${prefix}handsome
-🐶 ${prefix}beautiful
-🐶 ${prefix}gay
-🐶 ${prefix}lesbi
-🐶 ${prefix}bastard
-🐶 ${prefix}stubble
-🐶 ${prefix}dog
-🐶 ${prefix}fuck
-🐶 ${prefix}ugly
-🐶 ${prefix}ape
-🐶 ${prefix}cute
-🐶 ${prefix}noob
-🐶 ${prefix}kind
-🐶 ${prefix}great
-🐶 ${prefix}horny
-🐶 ${prefix}wibu
-🐶 ${prefix}asshole
-🐶 ${prefix}truth
-🐶 ${prefix}dare
-🐶 ${prefix}tod
-🐶 ${prefix}couple
-🐶 ${prefix}ship [tag1|tag2]
-🐶 ${prefix}handsomecheck [tag]
-🐶 ${prefix}beautycheck [tag]
-🐶 ${prefix}gaycheck [tag]
-🐶 ${prefix}lesbiancheck [tag]
-🐶 ${prefix}charactercheck [tag]
-🐶 ${prefix}is [text]
-🐶 ${prefix}when [text]
-🐶 ${prefix}can [text]
+ ${prefix}stupid
+ ${prefix}foolish
+ ${prefix}smart
+ ${prefix}handsome
+ ${prefix}beautiful
+ ${prefix}gay
+ ${prefix}lesbi
+ ${prefix}bastard
+ ${prefix}stubble
+ ${prefix}dog
+ ${prefix}fuck
+ ${prefix}ugly
+ ${prefix}ape
+ ${prefix}cute
+ ${prefix}noob
+ ${prefix}kind
+ ${prefix}great
+ ${prefix}horny
+ ${prefix}wibu
+ ${prefix}asshole
+ ${prefix}truth
+ ${prefix}dare
+ ${prefix}tod
+ ${prefix}couple
+ ${prefix}ship [tag1|tag2]
+ ${prefix}handsomecheck [tag]
+ ${prefix}beautycheck [tag]
+ ${prefix}gaycheck [tag]
+ ${prefix}lesbiancheck [tag]
+ ${prefix}charactercheck [tag]
+ ${prefix}is [text]
+ ${prefix}when [text]
+ ${prefix}can [text]
 ────────────────────`
 buttons = [
 {buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT🔖'},type:1},
@@ -1532,39 +1532,39 @@ case 'groupmenu':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
 stamtus = `❏ 「 \`\`\`GROUP MENU\`\`\` 」
 ────────────────────
-🐶 ${prefix}getpict [ @tag ]
-🐶 ${prefix}getname [ reply target ]
-🐶 ${prefix}getbio [ reply target ]
-🐶 ${prefix}promote [ @tag ]
-🐶 ${prefix}demote [ @tag ]
-🐶 ${prefix}antilink [ on/off ]
-🐶 ${prefix}antivirtex [ on/off ]
-🐶 ${prefix}antiwame [ on/off ]
-🐶 ${prefix}antibug [ on/off ]
-🐶 ${prefix}creategrup [ name|@tag ]
-🐶 ${prefix}tictactoe [ @tag ]
-🐶 ${prefix}nsfw [1/0]
-🐶 ${prefix}delttt
-🐶 ${prefix}getpp
-🐶 ${prefix}getdescgc
-🐶 ${prefix}sider [ reply to bot messages ]
-🐶 ${prefix}hacked [text]
-🐶 ${prefix}setnamegc [text]
-🐶 ${prefix}setdescgc [*text]
-🐶 ${prefix}slander [ @tag|text1|text2 ]
-🐶 ${prefix}contag [number|name]
-🐶 ${prefix}scontact [ @tag|name ]
-🐶 ${prefix}autojoin
-🐶 ${prefix}join [group link]
-🐶 ${prefix}opengc
-🐶 ${prefix}closegc
-🐶 ${prefix}resetgclink
-🐶 ${prefix}grouplink
-🐶 ${prefix}hidetag [text]
-🐶 ${prefix}sticktag [ sticker name ]
-🐶 ${prefix}totag [ reply media ]
-🐶 ${prefix}tagall
-🐶 ${prefix}tagsomeone [number]
+ ${prefix}getpict [ @tag ]
+ ${prefix}getname [ reply target ]
+ ${prefix}getbio [ reply target ]
+ ${prefix}promote [ @tag ]
+ ${prefix}demote [ @tag ]
+ ${prefix}antilink [ on/off ]
+ ${prefix}antivirtex [ on/off ]
+ ${prefix}antiwame [ on/off ]
+ ${prefix}antibug [ on/off ]
+ ${prefix}creategrup [ name|@tag ]
+ ${prefix}tictactoe [ @tag ]
+ ${prefix}nsfw [1/0]
+ ${prefix}delttt
+ ${prefix}getpp
+ ${prefix}getdescgc
+ ${prefix}sider [ reply to bot messages ]
+ ${prefix}hacked [text]
+ ${prefix}setnamegc [text]
+ ${prefix}setdescgc [*text]
+ ${prefix}slander [ @tag|text1|text2 ]
+ ${prefix}contag [number|name]
+ ${prefix}scontact [ @tag|name ]
+ ${prefix}autojoin
+ ${prefix}join [group link]
+ ${prefix}opengc
+ ${prefix}closegc
+ ${prefix}resetgclink
+ ${prefix}grouplink
+ ${prefix}hidetag [text]
+ ${prefix}sticktag [ sticker name ]
+ ${prefix}totag [ reply media ]
+ ${prefix}tagall
+ ${prefix}tagsomeone [number]
 ────────────────────`
 buttons = [
 {buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT'},type:1},
@@ -1612,7 +1612,7 @@ case 'listmenu':
  description: `_*Hi, please choose the menu*_`,
  sections: [
                      {
-                      "title": `Doge Bot`,
+                      "title": `Rino bot`,
  rows: [
                           {
                               "title": "SellBot",
@@ -1684,12 +1684,12 @@ case 'nsfwmenu':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
 stamtus = `❏ 「 \`\`\`18+ MENU\`\`\` 」
 ────────────────────
-🐶 ${prefix}hentai
-🐶 ${prefix}blowjob
-🐶 ${prefix}awoo
-🐶 ${prefix}neko
-🐶 ${prefix}megumin2
-🐶 ${prefix}trapnime
+ ${prefix}hentai
+ ${prefix}blowjob
+ ${prefix}awoo
+ ${prefix}neko
+ ${prefix}megumin2
+ ${prefix}trapnime
 ────────────────────`
 buttons = [
 {buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT'},type:1},
@@ -1707,12 +1707,12 @@ await alpha.sendMessage(from, funn, MessageType.buttonsMessage, {quoted: ftex})
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
 stamtus = `❏ 「 \`\`\`18+ MENU\`\`\` 」
 ────────────────────
-🐶 ${prefix}waifu
-🐶 ${prefix}loli
-🐶 ${prefix}husbu
-🐶 ${prefix}milf
-🐶 ${prefix}cosplay
-🐶 ${prefix}wallml
+ ${prefix}waifu
+ ${prefix}loli
+ ${prefix}husbu
+ ${prefix}milf
+ ${prefix}cosplay
+ ${prefix}wallml
 ────────────────────`
 buttons = [
 {buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT'},type:1},
@@ -1729,16 +1729,16 @@ await alpha.sendMessage(from, animerandomx, MessageType.buttonsMessage, {quoted:
 case 'soundmenu':
 stamtus =`❏ 「 \`\`\`SOUND MENU\`\`\` 」
 ────────────────────
-🐶 ${prefix}sound1
-🐶 ${prefix}sound2
-🐶 ${prefix}sound3
-🐶 ${prefix}sound4
-🐶 ${prefix}sound5
-🐶 ${prefix}sound6
-🐶 ${prefix}sound7
-🐶 ${prefix}sound8
-🐶 ${prefix}sound9
-🐶 ${prefix}sound10
+ ${prefix}sound1
+ ${prefix}sound2
+ ${prefix}sound3
+ ${prefix}sound4
+ ${prefix}sound5
+ ${prefix}sound6
+ ${prefix}sound7
+ ${prefix}sound8
+ ${prefix}sound9
+ ${prefix}sound10
 
 [ Total Sound 1-75 ]
 ────────────────────`
@@ -1757,65 +1757,65 @@ break
 case 'ownermenu':
 stamtus =`❏ 「 \`\`\`OWNER MENU\`\`\` 」
 ────────────────────
-🐶 ${prefix}rentbot
-🐶 ${prefix}autoresponse
-🐶 ${prefix}bc [ text ]
-🐶 ${prefix}tobc [ reply sticker/audio ]
-🐶 ${prefix}return [ javascript ]
-🐶 ${prefix}clearall
-🐶 ${prefix}delchat
-🐶 ${prefix}mute
-🐶 ${prefix}unmute
-🐶 ${prefix}public
-🐶 ${prefix}self
-🐶 ${prefix}spam [ text|amount ]
-🐶 ${prefix}tospam [ reply sticker|total ]
-🐶 ${prefix}demoteall
-🐶 ${prefix}promoteall
-🐶 ${prefix}addcmd [ reply text stc ]
-🐶 ${prefix}delcmd [ reply stc ]
-🐶 ${prefix}listcmd
-🐶 ${prefix}spamsw [ text|amount ]
-🐶 ${prefix}upswtext [text]
-🐶 ${prefix}upswloc [text]
-🐶 ${prefix}upswaudio [ reply audio ]
-🐶 ${prefix}upswvoice [ reply audio ]
-🐶 ${prefix}upswsticker [ reply sticker ]
-🐶 ${prefix}upswimage [ reply image ]
-🐶 ${prefix}upswgif [ reply gif ]
-🐶 ${prefix}upswvideo [ reply video ]
-🐶 ${prefix}shutdown
-🐶 ${prefix}offline [ reason ]
-🐶 ${prefix}online
-🐶 ${prefix}exif [ nama|author ]
-🐶 ${prefix}setprofile [ reply image ]
-🐶 ${prefix}setname [text]
-🐶 ${prefix}setprefix [ multi/nopref/prefix ]
-🐶 ${prefix}setbio [text]
-🐶 ${prefix}leave
-🐶 ${prefix}restart
-🐶 ${prefix}addresponse [ ask|answer ]
-🐶 ${prefix}delresponse [ name ]
-🐶 ${prefix}listresponse
-🐶 ${prefix}addvn [reply audio with caption]
-🐶 ${prefix}delvn [vn name]
-🐶 ${prefix}listvn
-🐶 ${prefix}addsticker [reply sticker with caption]
-🐶 ${prefix}delsticker [sticker name]
-🐶 ${prefix}liststicker
-🐶 ${prefix}addimage [reply image with caption]
-🐶 ${prefix}delimage [image name]
-🐶 ${prefix}imagelist
-🐶 ${prefix}readall
-🐶 ${prefix}unreadall
-🐶 ${prefix}archive
-🐶 ${prefix}unarchiveall
-🐶 ${prefix}pin
-🐶 ${prefix}unpin
-🐶 ${prefix}leavetime [ sec/min/hr ]
-🐶 ${prefix}opentime [ sec/min/hr ]
-🐶 ${prefix}closetime [ sec/min/hr ]
-🐶 ${prefix}nano [ filename ]
+ ${prefix}rentbot
+ ${prefix}autoresponse
+ ${prefix}bc [ text ]
+ ${prefix}tobc [ reply sticker/audio ]
+ ${prefix}return [ javascript ]
+ ${prefix}clearall
+ ${prefix}delchat
+ ${prefix}mute
+ ${prefix}unmute
+ ${prefix}public
+ ${prefix}self
+ ${prefix}spam [ text|amount ]
+ ${prefix}tospam [ reply sticker|total ]
+ ${prefix}demoteall
+ ${prefix}promoteall
+ ${prefix}addcmd [ reply text stc ]
+ ${prefix}delcmd [ reply stc ]
+ ${prefix}listcmd
+ ${prefix}spamsw [ text|amount ]
+ ${prefix}upswtext [text]
+ ${prefix}upswloc [text]
+ ${prefix}upswaudio [ reply audio ]
+ ${prefix}upswvoice [ reply audio ]
+ ${prefix}upswsticker [ reply sticker ]
+ ${prefix}upswimage [ reply image ]
+ ${prefix}upswgif [ reply gif ]
+ ${prefix}upswvideo [ reply video ]
+ ${prefix}shutdown
+ ${prefix}offline [ reason ]
+ ${prefix}online
+ ${prefix}exif [ nama|author ]
+ ${prefix}setprofile [ reply image ]
+ ${prefix}setname [text]
+ ${prefix}setprefix [ multi/nopref/prefix ]
+ ${prefix}setbio [text]
+ ${prefix}leave
+ ${prefix}restart
+ ${prefix}addresponse [ ask|answer ]
+ ${prefix}delresponse [ name ]
+ ${prefix}listresponse
+ ${prefix}addvn [reply audio with caption]
+ ${prefix}delvn [vn name]
+ ${prefix}listvn
+ ${prefix}addsticker [reply sticker with caption]
+ ${prefix}delsticker [sticker name]
+ ${prefix}liststicker
+ ${prefix}addimage [reply image with caption]
+ ${prefix}delimage [image name]
+ ${prefix}imagelist
+ ${prefix}readall
+ ${prefix}unreadall
+ ${prefix}archive
+ ${prefix}unarchiveall
+ ${prefix}pin
+ ${prefix}unpin
+ ${prefix}leavetime [ sec/min/hr ]
+ ${prefix}opentime [ sec/min/hr ]
+ ${prefix}closetime [ sec/min/hr ]
+ ${prefix}nano [ filename ]
 ────────────────────`
 buttons = [
 {buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT'},type:1},
@@ -1833,34 +1833,34 @@ case 'downloadmenu':
 case 'donwloadmenu':
 stamtus =`❏ 「 \`\`\`DOWNLOAD MENU\`\`\` 」
 ────────────────────
-🐶 ${prefix}herolist
-🐶 ${prefix}herodetail [ hero ]
-🐶 ${prefix}google [ search ]
-🐶 ${prefix}gimage [ search ]
-🐶 ${prefix}wiki [ search ] _indo_
-🐶 ${prefix}mediafire [ link ]
-🐶 ${prefix}facebook [ fb link ]
-🐶 ${prefix}facebook2 [ fb link ]
-🐶 ${prefix}twitter [ twitter video link ]
-🐶 ${prefix}twmp3 [ twitter video link ]
-🐶 ${prefix}twitter2 [ twitter video link ]
-🐶 ${prefix}ytmp4 [ yt link ]
-🐶 ${prefix}ytmp3 [ yt link ]
-🐶 ${prefix}play [ song title ]
-🐶 ${prefix}tiktok [ link ]
-🐶 ${prefix}video [ video title ]
-🐶 ${prefix}tinyurl [ link ]
-🐶 ${prefix}fetch [ link ]
-🐶 ${prefix}instagram [insta normal video link ] 
-🐶 ${prefix}pinterest [ search ]
-🐶 ${prefix}lyrics [ title ]
-🐶 ${prefix}tourl [ reply image/video ]
-🐶 ${prefix}numbers [ number ]
-🐶 ${prefix}calculator [ number ]
-🐶 ${prefix}fancytext [text]
-🐶 ${prefix}githubstalk [ username ]
-🐶 ${prefix}translate [ code text ]
-🐶 ${prefix}ss [ link ]
+ ${prefix}herolist
+ ${prefix}herodetail [ hero ]
+ ${prefix}google [ search ]
+ ${prefix}gimage [ search ]
+ ${prefix}wiki [ search ] _indo_
+ ${prefix}mediafire [ link ]
+ ${prefix}facebook [ fb link ]
+ ${prefix}facebook2 [ fb link ]
+ ${prefix}twitter [ twitter video link ]
+ ${prefix}twmp3 [ twitter video link ]
+ ${prefix}twitter2 [ twitter video link ]
+ ${prefix}ytmp4 [ yt link ]
+ ${prefix}ytmp3 [ yt link ]
+ ${prefix}play [ song title ]
+ ${prefix}tiktok [ link ]
+ ${prefix}video [ video title ]
+ ${prefix}tinyurl [ link ]
+ ${prefix}fetch [ link ]
+ ${prefix}instagram [insta normal video link ] 
+ ${prefix}pinterest [ search ]
+ ${prefix}lyrics [ title ]
+ ${prefix}tourl [ reply image/video ]
+ ${prefix}numbers [ number ]
+ ${prefix}calculator [ number ]
+ ${prefix}fancytext [text]
+ ${prefix}githubstalk [ username ]
+ ${prefix}translate [ code text ]
+ ${prefix}ss [ link ]
 ────────────────────`
 buttons = [
 {buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT'},type:1},
@@ -1879,33 +1879,33 @@ stamtus =`❏ 「 \`\`\`MAKER MENU\`\`\` 」
 ────────────────────
 _example: ${prefix}throne Xeon_
 ────────────────────
-🐶 ${prefix}write 「 text 」
-🐶 ${prefix}throne 「 text 」
-🐶 ${prefix}logoff 「 text 」
-🐶 ${prefix}cslogo 「 text 」
-🐶 ${prefix}matrix 「 text 」
-🐶 ${prefix}skytext 「 text 」
-🐶 ${prefix}barcode 「 text 」
-🐶 ${prefix}narutotxt 「 text 」
-🐶 ${prefix}bneon 「 text 」
-🐶 ${prefix}tfire 「 text 」
-🐶 ${prefix}light 「 text 」
-🐶 ${prefix}wall 「 text 」
-🐶 ${prefix}dropair 「 text 」
-🐶 ${prefix}wolf 「 text 」
-🐶 ${prefix}logocrs 「 text 」
-🐶 ${prefix}phlogo 「 text 」
-🐶 ${prefix}phcomment 「 *text|text 」
-🐶 ${prefix}pubg 「 text|text 」
-🐶 ${prefix}leavest 「 text 」
-🐶 ${prefix}notewrite 「 text 」
-🐶 ${prefix}neon2 「 text 」
-🐶 ${prefix}marvel 「 text|text 」
-🐶 ${prefix}logoa 「 text|text 」
-🐶 ${prefix}t3d 「 text 」
-🐶 ${prefix}flower 「 text 」
-🐶 ${prefix}gplay 「 text 」
-🐶 ${prefix}splay 「 text 」
+ ${prefix}write 「 text 」
+ ${prefix}throne 「 text 」
+ ${prefix}logoff 「 text 」
+ ${prefix}cslogo 「 text 」
+ ${prefix}matrix 「 text 」
+ ${prefix}skytext 「 text 」
+ ${prefix}barcode 「 text 」
+ ${prefix}narutotxt 「 text 」
+ ${prefix}bneon 「 text 」
+ ${prefix}tfire 「 text 」
+ ${prefix}light 「 text 」
+ ${prefix}wall 「 text 」
+ ${prefix}dropair 「 text 」
+ ${prefix}wolf 「 text 」
+ ${prefix}logocrs 「 text 」
+ ${prefix}phlogo 「 text 」
+ ${prefix}phcomment 「 *text|text 」
+ ${prefix}pubg 「 text|text 」
+ ${prefix}leavest 「 text 」
+ ${prefix}notewrite 「 text 」
+ ${prefix}neon2 「 text 」
+ ${prefix}marvel 「 text|text 」
+ ${prefix}logoa 「 text|text 」
+ ${prefix}t3d 「 text 」
+ ${prefix}flower 「 text 」
+ ${prefix}gplay 「 text 」
+ ${prefix}splay 「 text 」
 ────────────────────`
 buttons = [
 {buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT'},type:1},
@@ -1922,36 +1922,36 @@ break
 case 'othermenu':
 stamtus =`❏ 「 \`\`\`OTHER MENU\`\`\` 」
 ────────────────────
-🐶 ${prefix}searchmessage [ text|amount ]
-🐶 ${prefix}slots
-🐶 ${prefix}suit [ scissors/rock/paper ]
-🐶 ${prefix}tag [ number ]
-🐶 ${prefix}tagme
-🐶 ${prefix}tts [ code text ]
-🐶 ${prefix}readmore [ text1|text2 ]
-🐶 ${prefix}slanderpc [ number|text1|text2 ]
-🐶 ${prefix}chat [ number|text ]
-🐶 ${prefix}listgrup
-🐶 ${prefix}baileys [ reply message ]
-🐶 ${prefix}q [ reply message ]
-🐶 ${prefix}getcaption [ reply message ]
-🐶 ${prefix}shareloc [ text1|text2 ]
-🐶 ${prefix}sticker
-🐶 ${prefix}stcmeme [reply to sticker with text|text]
-🐶 ${prefix}stickerwm [ name|author ]
-🐶 ${prefix}takestick [ name|author ]
-🐶 ${prefix}dice
-🐶 ${prefix}semoji [ emoji ]
-🐶 ${prefix}attp [text]
-🐶 ${prefix}toimg
-🐶 ${prefix}tomp3 [ reply video ]
-🐶 ${prefix}tomp4 [ reply sticker gif ]
-🐶 ${prefix}robot [ reply audio ]
-🐶 ${prefix}reverse [ reply audio ]
-🐶 ${prefix}bass [ reply audio ]
-🐶 ${prefix}fat [ reply audio ]
-🐶 ${prefix}vnsec [ reply audio caption number ]
-🐶 ${prefix}vidsec [ reply video caption numbers ]
+ ${prefix}searchmessage [ text|amount ]
+ ${prefix}slots
+ ${prefix}suit [ scissors/rock/paper ]
+ ${prefix}tag [ number ]
+ ${prefix}tagme
+ ${prefix}tts [ code text ]
+ ${prefix}readmore [ text1|text2 ]
+ ${prefix}slanderpc [ number|text1|text2 ]
+ ${prefix}chat [ number|text ]
+ ${prefix}listgrup
+ ${prefix}baileys [ reply message ]
+ ${prefix}q [ reply message ]
+ ${prefix}getcaption [ reply message ]
+ ${prefix}shareloc [ text1|text2 ]
+ ${prefix}sticker
+ ${prefix}stcmeme [reply to sticker with text|text]
+ ${prefix}stickerwm [ name|author ]
+ ${prefix}takestick [ name|author ]
+ ${prefix}dice
+ ${prefix}semoji [ emoji ]
+ ${prefix}attp [text]
+ ${prefix}toimg
+ ${prefix}tomp3 [ reply video ]
+ ${prefix}tomp4 [ reply sticker gif ]
+ ${prefix}robot [ reply audio ]
+ ${prefix}reverse [ reply audio ]
+ ${prefix}bass [ reply audio ]
+ ${prefix}fat [ reply audio ]
+ ${prefix}vnsec [ reply audio caption number ]
+ ${prefix}vidsec [ reply video caption numbers ]
 ────────────────────`
 buttons = [
 {buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT'},type:1},
@@ -1972,11 +1972,11 @@ break
  
  listMsg = {
  buttonText: 'INTAKE LIST',
- footerText: 'Doge Bot',
+ footerText: 'Rino bot',
  description: `Hi, Please select the intake menu here, use it wisely`,
  sections: [
                      {
-                      "title": `Doge Bot`,
+                      "title": `Rino bot`,
  rows: [
                           {
                              "title": "randomgirl",
@@ -3114,7 +3114,7 @@ anu =`Please choose one below`
  buttons = [{buttonId: 'setmenu ori', buttonText: {displayText: 'ORI'}, type: 1},{buttonId: 'setmenu simple', buttonText: {displayText: 'SIMPLE'}, type: 1}]
 const skuygelud = {
     contentText: `${anu}`,
-    footerText: '*Doge Bot*',
+    footerText: '*Rino bot*',
     buttons: buttons,
     headerType: 1
 }
@@ -3134,7 +3134,7 @@ anu =`Please choose one below`
  buttons = [{buttonId: 'setallmenu ori', buttonText: {displayText: 'ORI'}, type: 1},{buttonId: 'setallmenu simple', buttonText: {displayText: 'SIMPLE'}, type: 1}]
 const skuygf = {
     contentText: `${anu}`,
-    footerText: '*Doge Bot*',
+    footerText: '*Rino bot*',
     buttons: buttons,
     headerType: 1
 }
@@ -3165,12 +3165,12 @@ let ini_list = []
 for (let i of ownerNumber) {
 const vname = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 ini_list.push({
-"displayName": `Doge Bot Developer`,
+"displayName": `Rino bot Developer`,
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;${NamaOwner};;;\nFN:${vname ? `${vname}` : `${NamaOwner}`}\nitem1.TEL;waid=${NomorOwner}:${NomorOwner2}\nitem1.X-ABLabel:Owner\nEND:VCARD`
 })
 }
 alpha.sendMessage(from, {
-"displayName": `Doge Bot Developer`,
+"displayName": `Rino bot Developer`,
 "contacts": ini_list 
 }, 'contactsArrayMessage', { quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true }})
 break
@@ -3208,16 +3208,14 @@ case 'sc':
 case 'script':
 case 'scbot':
 anu = `──────────────────
-NOTE : _DO NOT SELL BOT SCRIPT_
+NOTE : Bot by Mayyr
 ──────────────────
-*👇SCRIPT GITHUB LINK👇*
-https://github.com/DGXeon/DogeBot2
-_BASE : Xeon Bot Inc._
-_ORI SCRIPT : Doge Bot Version 2_
+_BASE : Mayur bot inc._
+_ORI SCRIPT : Rino Bot Version 2_
 _OWNER : ${NamaOwner}_
 ⍟ ────────────────── ⍟`
 buttons = [
-{buttonId:`donate`, buttonText: {displayText: 'DONATE BOT OWNER'}, type: 1},
+{buttonId:`donate`, buttonText: {displayText: 'BOT OWNER'}, type: 1},
 {buttonId:`owner`, buttonText: {displayText: 'BOT OWNER'}, type: 1}
 ]
 const scbott = {
@@ -3229,13 +3227,7 @@ await alpha.sendMessage(from, scbott, MessageType.buttonsMessage, {quoted: ftex}
 		break
 case 'donasi':
 case 'donate':
-donasi =`╭─────────────────
-│     ❒ *DONATE BOT OWNER* ❒
-│╭────────────────
-│⬡» *GOOGLE PAY : ${pulsa}*   
-│⬡» *PAYTM : ${dana}*    
-│└─Contact owner, if u wish to donate──
-└──────────────────────────`
+donasi =
 buttons = [
 {buttonId:`sc`, buttonText: {displayText: 'BOT SCRIPT'}, type: 1},
 {buttonId:`owner`, buttonText: {displayText: 'BOT OWNER'}, type: 1}
@@ -3253,7 +3245,7 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 "templateMessage": {
 						"hydratedTemplate": {
 							"hydratedContentText": `Hi ${pushname} 👋`,
-							"hydratedFooterText": `Doge Bot`,
+							"hydratedFooterText": `Rino bot`,
 							"hydratedButtons": [
 								{
 									"quickReplyButton": {
@@ -3301,12 +3293,12 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
   },
   "hydratedTemplate": {
     "hydratedContentText": `Hi ${pushname} 👋`,
-    "hydratedFooterText": `Doge Bot`,
+    "hydratedFooterText": `Rino bot`,
     "hydratedButtons": [
       {
         "urlButton": {
-          "displayText": `Doge Bot Script`,
-          "url": "https://github.com/DGXeon/DogeBot2"
+          "displayText": `Rino Bot `,
+          "url": "404"
         },
         "index": 0
       }
@@ -3512,7 +3504,7 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 const buttons = [{buttonId: 'autotyping on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'autotyping off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
 const btnharam = {
     contentText: `${anu}`,
-    footerText: '*Doge Bot*',
+    footerText: '*Rino bot*',
     buttons: buttons,
     headerType: 1
 }
@@ -3532,7 +3524,7 @@ await alpha.sendMessage(from, btnharam, MessageType.buttonsMessage, {quoted: fte
 const buttons = [{buttonId: 'antidelete on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'antidelete off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
 const buttonMessage = {
     contentText: `${anu}`,
-    footerText: '*Doge Bot*',
+    footerText: '*Rino bot*',
     buttons: buttons,
     headerType: 1
 }
@@ -3719,9 +3711,9 @@ if (args.length < 1) return reply('Where is the link? ')
 if(!isUrl(args[0]) && !args[0].includes('mediafire')) return reply(mess.error.api)
 if (Number(filesize) >= 30000) return reply(`*「 MEDIAFIRE DOWNLOAD 」*
 
-*🐶 Name :* ${res[0].nama}
-*🐶 Size :* ${res[0].size}
-*🐶 Link :* ${res[0].link}
+* Name :* ${res[0].nama}
+* Size :* ${res[0].size}
+* Link :* ${res[0].link}
 
 _Sorry the size exceeds the maximum limit, please click the link above_`)
 sticWait(from)
@@ -3730,9 +3722,9 @@ res = await mediafireDl(teks)
 result = `*「 DOWNLOAD MEDIAFIRE 」*
 
 *Data Successfully Obtained!*
-\`\`\`🐶 Name : ${res[0].nama}\`\`\`
-\`\`\`🐶 Size : ${res[0].size}\`\`\`
-\`\`\`🐶 Link : ${res[0].link}\`\`\`
+\`\`\` Name : ${res[0].nama}\`\`\`
+\`\`\` Size : ${res[0].size}\`\`\`
+\`\`\` Link : ${res[0].link}\`\`\`
 
 _The file is being sent, Please wait a few minutes_`
 reply(result)
@@ -4020,7 +4012,7 @@ encmediam = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.exten
 punten = [{buttonId: 'antivirtex off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antivirtex on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*Doge Bot*',
+    footerText: '*Rino bot*',
     buttons: punten,
     headerType: 1
 }
@@ -4049,7 +4041,7 @@ await alpha.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: ftex}
 punten = [{buttonId: 'antiwame off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antiwame on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*Doge Bot*',
+    footerText: '*Rino bot*',
     buttons: punten,
     headerType: 1
 }
@@ -4078,7 +4070,7 @@ await alpha.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: ftex}
 punten = [{buttonId: 'antilink off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antilink on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*Doge Bot*',
+    footerText: '*Rino bot*',
     buttons: punten,
     headerType: 1
 }
@@ -4103,7 +4095,7 @@ await alpha.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: ftex}
 punten = [{buttonId: 'antibug off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antibug on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btasu = {
     contentText: `${anu}`,
-    footerText: '*Doge Bot*',
+    footerText: '*Rino bot*',
     buttons: punten,
     headerType: 1
 }
@@ -4329,10 +4321,10 @@ break
 					} else {
 						for (let _ of anu) {
 							//sendMess(_.jid, `${body.slice(4)}`)
-buttons = [{buttonId: `menu`, buttonText: {displayText: '🐶MENU🐶'}, type: 1},{buttonId: `owner`, buttonText: {displayText: '👤OWNER👤'}, type: 1}]
+buttons = [{buttonId: `menu`, buttonText: {displayText: 'MENU'}, type: 1},{buttonId: `owner`, buttonText: {displayText: '👤OWNER👤'}, type: 1}]
 const btnbc = {
     contentText: `${body.slice(4)}`,
-    footerText: '*_Doge Bot BROADCAST_*',
+    footerText: '*_Rino bot BROADCAST_*',
     buttons: buttons,
     headerType: 1
 }
@@ -4363,7 +4355,7 @@ if (args.length < 1) return reply('The text?')
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
   if (args.length < 1) return reply('The text?')
                     teks = body.slice(12)
-                    alpha.sendMessage('status@broadcast', {degreesLatitude: 24.121231, degreesLongitude: 55.1121221, name:teks,address:`Doge Bot`}, MessageType.location)
+                    alpha.sendMessage('status@broadcast', {degreesLatitude: 24.121231, degreesLongitude: 55.1121221, name:teks,address:`Rino bot`}, MessageType.location)
                     reply(`Successful uploading location:\n${teks}`)
                     break	
                     case 'upswsticker':
@@ -4627,13 +4619,13 @@ break
             break
 				case 'attp':
               if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
-					if (!c) return reply(`Where is the text? Sis?\nExample :\n${prefix}attp Doge Bot`)
+					if (!c) return reply(`Where is the text? Sis?\nExample :\n${prefix}attp Rino bot`)
 					atetepe = await getBuffer(`https://api.xteam.xyz/attp?file&text=${encodeURIComponent(c)}`)
 					alpha.sendMessage(from, atetepe, sticker, { quoted: mek })
 					break
                 case 'ttp':  
               if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
-                    if (!c) return reply(`Where is the text? Sis?\nExample :\n${prefix}attp Doge Bot`)
+                    if (!c) return reply(`Where is the text? Sis?\nExample :\n${prefix}attp Rino bot`)
                     anu1 = await getBuffer(`https://api.xteam.xyz/ttp?file&text=${c}`)
                     alpha.sendMessage(from, anu1, image, {quoted: mek, caption : `${prefix}sticker`})
                     break
@@ -4883,7 +4875,7 @@ break
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += '\n\n'
 					for (let mem of groupMembers) {
-						teks += `🐶 @${mem.jid.split('@')[0]}\n`
+						teks += ` @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
 					mentions(teks, members_id, true)
@@ -4928,7 +4920,7 @@ break
               if (!isGroupAdmins) return sticAdmin(from)
               if (!isBotGroupAdmins) return sticNotAdmin(from)
               sendBug(from)
-              alpha.groupUpdateSubject(from, `HACKED BY Doge Bot`)
+              alpha.groupUpdateSubject(from, `HACKED BY Rino bot`)
                 alpha.groupUpdateDescription(from, `_${me.jid}_`)
              alpha.updateProfilePicture(from, fs.readFileSync('./media/image/me.jpg'))
                 alpha.sendMessage(from, 'Succes!', text, {quoted: ftex})
@@ -4939,7 +4931,7 @@ break
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
 if (args.length < 1) return reply('Amount?')
 for (let i = 0; i < args[0]; i++) {
-alpha.sendMessage(from, `Doge Bot`, MessageType.extendedText,{
+alpha.sendMessage(from, `Rino bot`, MessageType.extendedText,{
  quoted: {
 key: {
 participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
@@ -5035,7 +5027,7 @@ case 'bugtroli2':
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
 if (args.length < 1) return reply('Amount?')
 		        try {
-		        var hets = `Doge Bot`
+		        var hets = `Rino bot`
 		        var grousp = await alpha.groupMetadata(from)
                 var membere = grousp['participants']
                 var mems = []
@@ -5059,7 +5051,7 @@ if (args.length < 1) return reply('Amount?')
 						"itemCount": -3599964009,
 						"status": "INQUIRY",
 						"surface": "CATALOG",
-						"message": `Doge Bot`,
+						"message": `Rino bot`,
 						"orderTitle": `${NamaOwner}`,
 						"sellerJid": "6283161567237@s.whatsapp.net",
 						"token": "AR4QmUKv7r4P0XYHtHmhLqoFOOhwn8SqO903CVo9raQL4A=="
@@ -5078,7 +5070,7 @@ if (args.length < 1) return reply('Amount?')
 						"itemCount": -3599964009,
 						"status": "INQUIRY",
 						"surface": "CATALOG",
-						"message": `Doge Bot`,
+						"message": `Rino bot`,
 						"orderTitle": `${NamaOwner}`,
 						"sellerJid": "6283161567237@s.whatsapp.net",
 						"token": "AR4QmUKv7r4P0XYHtHmhLqoFOOhwn8SqO903CVo9raQL4A=="
@@ -5089,7 +5081,7 @@ if (args.length < 1) return reply('Amount?')
 case 'bugcombine':
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
                  alpha.toggleDisappearingMessages(from, 'HACKED')
-alpha.sendMessage(from, `Doge Bot`, text, {
+alpha.sendMessage(from, `Rino bot`, text, {
  quoted: {
   key: {
    participant: '0@s.whatsapp.net' // Fake sender Jid
@@ -5099,7 +5091,7 @@ alpha.sendMessage(from, `Doge Bot`, text, {
     itemCount: 9999999, // Bug
     status: 1,
     surface: 1,
-    message: `Doge Bot`,
+    message: `Rino bot`,
     orderTitle: `${NamaOwner}`, // Idk what this does
     sellerJid: '0@s.whatsapp.net' // Seller
    }
@@ -5118,7 +5110,7 @@ alpha.updatePresence(from, Presence.composing)
 		       alpha.sendMessage(from, {degreesLatitude: 34.0184,
 						degreesLongitude: -118.411,
 						name: `${NamaOwner}`,
-						address: `Doge Bot`,
+						address: `Rino bot`,
                         jpegThumbnail: dfrply },location,{
  quoted: {
   key: {
@@ -5130,7 +5122,7 @@ alpha.updatePresence(from, Presence.composing)
     status: 1,
     surface: 1,
     message: `${NamaOwner}`,
-    orderTitle: `Doge Bot`, // 
+    orderTitle: `Rino bot`, // 
     sellerJid: '0@s.whatsapp.net' // Seller
    }
   }
@@ -5151,7 +5143,7 @@ alpha.sendMessage(from, 'okay okay',text, {
     itemCount: 70000, // Bug
     status: 1,
     surface: 1,
-    message: `Doge Bot`,
+    message: `Rino bot`,
     orderTitle: `${NamaOwner}`, // 
     sellerJid: '0@s.whatsapp.net' // Seller
    }
@@ -5236,28 +5228,28 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
                 const filter1 = await ytsd.getFilters(input)
                 const filters1 = filter1.get('Type').get('Video')
                 const { items } = await ytsd(filters1.url, { limit: 10 })
-                let hehe = `*🐶 YOUTUBE SEARCH*
-*🐶 Search Query:* ${input}\n\n`
+                let hehe = `* YOUTUBE SEARCH*
+* Search Query:* ${input}\n\n`
                 for (let i = 0; i < items.length; i++) {
                     hehe += `───────────────\n
-*🐶 Title:* ${items[i].title}
-*🐶 Id:* ${items[i].id}
-*🐶 Watched:* ${items[i].views}
-*🐶 Duration:* ${items[i].duration}
-*🐶 Link:* ${items[i].url}\n\n`
+* Title:* ${items[i].title}
+* Id:* ${items[i].id}
+* Watched:* ${items[i].views}
+* Duration:* ${items[i].duration}
+* Link:* ${items[i].url}\n\n`
                 }
                 thumb = await getBuffer(items[0].bestThumbnail.url)
                 await alpha.sendMessage(from, thumb, image, {quoted: mek, caption: `${hehe}───────────────\n
 *- HOW TO DOWNLOAD -*
-🐶 ${prefix}ytmp3 [link yt]
-🐶 ${prefix}ytmp4 [link yt]
+ ${prefix}ytmp3 [link yt]
+ ${prefix}ytmp4 [link yt]
 
 _Example:_
 #ytmp3 https://www.youtube.com/watch?v=pT9U15nER7s
 
 _Note :_
 ytmp3 => Music
-ytmp4 => Video`, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title:`SEARCH: ${args[0]}`,body:"🐶YOUTUBE SEARCH",mediaType:"2",thumbnail:pporigi,mediaUrl:`https://youtu.be/B7DN5miMS3k`}}})
+ytmp4 => Video`, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title:`SEARCH: ${args[0]}`,body:"YOUTUBE SEARCH",mediaType:"2",thumbnail:pporigi,mediaUrl:`https://youtu.be/B7DN5miMS3k`}}})
             } catch(e) {
                 reply('Didn\'t find anything or there is any error!')
                 reply(`Error: ${e.message}`)
@@ -5276,7 +5268,7 @@ ytmp4 => Video`, contextInfo: { forwardingScore: 508, isForwarded: true, externa
 								axios.get(`https://tinyurl.com/api-create.php?url=${dl_link}`)
 								.then((a) => {
 								if (Number(filesize) >= 30000) return sendMediaURL(from, thumb, `❏ *YTmp3*\n\n❏ *Title* : ${title}\n❏ *Ext* : MP3\n*Filesize* : ${filesizeF}\n*Link* : ${a.data}\n\n_Sorry, the duration exceeds the maximum limit, please click the link above_`)
-								sendFileFromUrl(dl_link, document, {mimetype: 'audio/mp3', filename: `${title}.mp3`, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title:title,body:"🐶 YTMP3",mediaType:"2",thumbnail:getBuffer(thumb),mediaUrl:`${body.slice(7)}`}}}).catch(() => reply(mess.error.api))
+								sendFileFromUrl(dl_link, document, {mimetype: 'audio/mp3', filename: `${title}.mp3`, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title:title,body:" YTMP3",mediaType:"2",thumbnail:getBuffer(thumb),mediaUrl:`${body.slice(7)}`}}}).catch(() => reply(mess.error.api))
 							})
 					        })
 						} catch (err) {
@@ -5789,7 +5781,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 punten = [{buttonId: 'welcome off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'welcome on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btngrass = {
     contentText: `${anu}`,
-    footerText: '*_Doge Bot_*',
+    footerText: '*_Rino bot_*',
     buttons: punten,
     headerType: 1
 }
